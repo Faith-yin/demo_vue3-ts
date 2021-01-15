@@ -19,7 +19,12 @@
     port: 8098,
     host: '0.0.0.0',
   },
+  // 打包时区分开发环境与生产环境静态资源路径
+  publicPath: './', 
+  // 生产环境是否生成 sourceMap 文件，一般情况不建议打开
+  productionSourceMap: false,
 
- }
+  
+}
 
 
